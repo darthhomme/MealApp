@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BE261AAF1F57AF4A004960EF /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE261AAE1F57AF4A004960EF /* RatingControl.swift */; };
 		BE261AB11F57C1DF004960EF /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE261AB01F57C1DF004960EF /* Meal.swift */; };
+		BE261AB31F57CEEA004960EF /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE261AB21F57CEEA004960EF /* MealTableViewCell.swift */; };
 		BE37EDAC1F577A99009E6948 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37EDAB1F577A99009E6948 /* AppDelegate.swift */; };
 		BE37EDAE1F577A99009E6948 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37EDAD1F577A99009E6948 /* ViewController.swift */; };
 		BE37EDB11F577A99009E6948 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE37EDAF1F577A99009E6948 /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		BE261AAE1F57AF4A004960EF /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		BE261AB01F57C1DF004960EF /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		BE261AB21F57CEEA004960EF /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 		BE37EDA81F577A99009E6948 /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE37EDAB1F577A99009E6948 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE37EDAD1F577A99009E6948 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,9 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				BE37EDAB1F577A99009E6948 /* AppDelegate.swift */,
-				BE37EDAD1F577A99009E6948 /* ViewController.swift */,
 				BE261AB01F57C1DF004960EF /* Meal.swift */,
+				BE261AB21F57CEEA004960EF /* MealTableViewCell.swift */,
 				BE261AAE1F57AF4A004960EF /* RatingControl.swift */,
+				BE37EDAD1F577A99009E6948 /* ViewController.swift */,
 				BE37EDAF1F577A99009E6948 /* Main.storyboard */,
 				BE37EDB21F577A99009E6948 /* Assets.xcassets */,
 				BE37EDB41F577A99009E6948 /* LaunchScreen.storyboard */,
@@ -209,6 +212,7 @@
 				BE37EDAE1F577A99009E6948 /* ViewController.swift in Sources */,
 				BE261AAF1F57AF4A004960EF /* RatingControl.swift in Sources */,
 				BE37EDAC1F577A99009E6948 /* AppDelegate.swift in Sources */,
+				BE261AB31F57CEEA004960EF /* MealTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
